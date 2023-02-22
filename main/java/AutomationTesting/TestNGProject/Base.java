@@ -14,7 +14,7 @@ public class Base
 	{
 		System.setProperty("webdriver.chrome.driver","C:\\Users\\User\\EclipseWorkspace\\TestNGProject\\src\\main\\java\\Resources\\chromedriver.exe");
 		driver=new ChromeDriver();
-		driver.get("https://www.amazon.in/");
+		driver.get("https://www.amazon.com/");
 	}	
      @AfterMethod
 	 public void afterTest() 

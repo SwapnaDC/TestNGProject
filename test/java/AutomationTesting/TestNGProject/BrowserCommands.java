@@ -24,7 +24,7 @@ public class BrowserCommands extends Base
 	
 	public void verifyPageSource()
 	{
-		String expectedPageSource="Search Amazon.in";
+		String expectedPageSource="Search Amazon.com";
 		String actualPageSource=driver.getPageSource();
 		assertTrue(actualPageSource.contains(expectedPageSource),"page source are not same");
 	}
